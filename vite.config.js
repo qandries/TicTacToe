@@ -1,5 +1,3 @@
-/** @format */
-
 import react from "@vitejs/plugin-react";
 import dns from "dns";
 import path from "path";

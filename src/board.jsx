@@ -1,11 +1,5 @@
-import PropTypes from "prop-types";
 import React from "react";
 import { Square } from "./square";
-
-Board.propTypes = {
-    squares: PropTypes.array,
-    onClick: PropTypes.func,
-};
 
 export function Board({ squares, onClick }) {
     function renderSquare(i) {
